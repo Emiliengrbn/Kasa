@@ -1,0 +1,10 @@
+@import "./_settings.css";
+@import "./pages/home.css";
+@import "./pages/erreur.css";
+@import "./pages/logement.css";
+@import "./pages/about.css";
+@import "./components/_nav.css";
+@import "./components/_footer.css";
+@import "./components/_locations.css";
+@import "./components/_accordion.css";
+@import "./components/_imageSlider.css"

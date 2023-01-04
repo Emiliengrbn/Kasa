@@ -1,0 +1,27 @@
+.main_error {
+    text-align: center;
+    align-items: center;
+}
+
+.error_404 {
+    margin-top: 150px;
+    font-size: 200px;
+    color: #FF6060;
+}
+
+.message_error {
+    font-size: 25px;
+    color: #FF6060;
+    margin-bottom: 150px;
+}
+
+.link_home {
+    color: #FF6060;
+    font-size: 15px;
+}
+
+@media all and (max-width: 600px) {
+    .error_404 {
+        font-size: 150px;
+    }
+}

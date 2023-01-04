@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    height: 130px;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer_elements img {
+    filter: brightness(10);
+    width: 80px;
+    margin-bottom: -25px;
+}
+
+.footer_elements p {
+    padding-top: 40px;
+}
+
+.footer_elements {
+    margin: auto;
+}
+
+.txt_footer {
+    color: white;
+}
