@@ -54,14 +54,18 @@
     background-color: #FF6060;
     border-radius: 5px;
     margin: 20px 50px 20px 0;
-    padding: 5px 25px;
+    padding: 8px 8px;
 }
 
 .star {
-    width: 30px;
+    width: 25px;
 }
 
-.orange_star img {
+.grey_star_position {
+    margin-top: 10px;
+}
+
+/* .orange_star img {
     color: #FF6060;
 }
 
@@ -72,7 +76,7 @@
 .orange_star_position {
     position: absolute;
     display: flex;
-}
+} */
 
 @media all and (max-width: 600px) {
     .container_infos {
@@ -83,6 +87,7 @@
     .host_infos {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .tags_house {
@@ -91,5 +96,9 @@
 
     .tag {
         margin-right: 15px;
+    }
+
+    .grey_star_position {
+        margin-top: 0;
     }
 }

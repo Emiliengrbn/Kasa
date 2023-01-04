@@ -8,3 +8,9 @@
 .logo img {
     width: 150px;
 }
+
+@media all and (max-width: 600px) {
+    .nav_link {
+        text-transform: uppercase;
+    }
+}

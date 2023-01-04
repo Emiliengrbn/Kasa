@@ -9,5 +9,6 @@
 @media all and (max-width: 600px) {
     .about_picture {
         margin-top: 0;
+        height: 223px;
     }
 }
