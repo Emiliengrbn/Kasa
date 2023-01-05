@@ -67,7 +67,7 @@
     margin: 0 85px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
 
     .small__accordions {
         flex-wrap: wrap;

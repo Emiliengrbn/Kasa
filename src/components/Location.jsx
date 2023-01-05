@@ -9,8 +9,6 @@ const star = require ("../assets/images/star.png")
 const Location = () => {
   const params = useParams()
 
-  // const aze = [1, 2, 3, 4]
-
   const foundLogement = logements.find(l => {
     return l.id === params.id;
   })

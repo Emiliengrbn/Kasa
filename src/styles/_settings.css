@@ -28,7 +28,7 @@ li {
     list-style-type: none;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
     header {
         margin: 25px;
     }

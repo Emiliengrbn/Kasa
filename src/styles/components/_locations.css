@@ -44,7 +44,7 @@
     padding: 0 0 5px 10px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
     .container_location {
         background: white;
     }

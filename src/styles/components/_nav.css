@@ -13,4 +13,8 @@
     .nav_link {
         text-transform: uppercase;
     }
+
+    .navigation {
+        font-size: 13px;
+    }
 }
