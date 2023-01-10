@@ -5,7 +5,7 @@ const logements = require("../logements.json");
 const Card = () => {
   return (
     <div className="container_location">
-      {logements.map((l, i) => (
+      {logements.map((l) => (
         <div className="card_location">
           <Link to={'/logement/' + l.id}>
             <img className="img_location" src={l.cover} alt="logement"></img>

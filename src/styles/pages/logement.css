@@ -63,24 +63,8 @@
 
 .grey_star_position {
     margin-top: 10px;
-}
-
-.azertyuiop {
     display: flex;
 }
-
-/* .orange_star img {
-    color: #FF6060;
-}
-
-.orange_star {
-    z-index: 1;
-}
-
-.orange_star_position {
-    position: absolute;
-    display: flex;
-} */
 
 @media all and (max-width: 700px) {
     .container_infos {
@@ -108,5 +92,9 @@
 
     .grey_star_position {
         margin-top: 0;
+    }
+
+    .host_rating {
+        order: -1;
     }
 }

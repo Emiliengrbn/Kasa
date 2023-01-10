@@ -4,7 +4,7 @@ import Accordion from "./Accordion"
 import ImageSlider from "./ImageSlider";
 const logements = require("../logements.json");
 const star = require ("../assets/images/star.png")
-// const orangeStar = require ("../assets/images/orangeStar.png")
+const orangeStar = require ("../assets/images/orangeStar.png")
 
 const Location = () => {
   const params = useParams()
@@ -16,6 +16,9 @@ const Location = () => {
   const equipement = foundLogement.equipments.map((e, index) => (
     <li key={index}>{e}</li>
   ))
+
+  const tableau = [1, 2, 3, 4, 5]
+
   return (
     <div>
       <div className="containerStyles">
@@ -42,18 +45,14 @@ const Location = () => {
             <img src={foundLogement.host.picture} alt="" className="host_img"></img>
           </div>
           <div className="host_rating">
-            {/* <div className="orange_star_position">
-              {aze.map(() => (
-                <img src={orangeStar} className="orange_star"/>
-              ))}
-            </div> */}
           
             <div className="grey_star_position">
-              <img src={star} alt="etoile" className="star"/>
-              <img src={star} alt="etoile" className="star"/>
-              <img src={star} alt="etoile" className="star"/>
-              <img src={star} alt="etoile" className="star"/>
-              <img src={star} alt="etoile" className="star"/>
+              {tableau.map((t, key) => 
+                t <= foundLogement.rating ? (
+                  <img key={key} src={orangeStar} alt="etoile" className="star"/>
+                ) : (<img  src={star} alt="etoile" className="star"/>)
+              )}
+              
             </div>
           </div>
         </div>

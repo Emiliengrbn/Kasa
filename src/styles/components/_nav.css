@@ -12,6 +12,7 @@
 @media all and (max-width: 600px) {
     .nav_link {
         text-transform: uppercase;
+        margin: 5px;
     }
 
     .navigation {
