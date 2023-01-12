@@ -30,7 +30,7 @@ li {
 
 @media all and (max-width: 700px) {
     header {
-        margin: 25px;
+        margin: 0 25px;
     }
 
     main {
