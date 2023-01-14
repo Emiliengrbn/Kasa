@@ -2,14 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const logements = require("../logements.json");
 
+
 const Card = () => {
-
-  // function badId() {
-  //   if (logements.id === undefined) {
-      
-  //   }
-  // }
-
   return (
     <div className="container_location">
       {logements.map((l) => (

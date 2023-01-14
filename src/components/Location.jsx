@@ -24,10 +24,6 @@ const Location = () => {
       <div className="containerStyles">
         <ImageSlider slides={foundLogement.pictures} />
       </div>
-
-
-
-
       <div className="container_infos">
         <div className="house_infos">
           <h1 className="house_title">{foundLogement.title}</h1>
@@ -38,7 +34,6 @@ const Location = () => {
               ))}
           </ul>
         </div>
-
         <div className="host_infos">
           <div className="host_name_picture">
             <p className="host_name">{foundLogement.host.name}</p>
