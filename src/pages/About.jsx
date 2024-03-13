@@ -1,17 +1,9 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Navigation from "../components/Navigation";
-import Foot from "../components/Foot";
 import Accordion from "../components/Accordion";
 const mountainPicture = require("../assets/images/about_img.png");
 
 const About = () => {
   return (
-    <div>
-      <header>
-        <Logo />
-        <Navigation />
-      </header>
       <main>
         <img src={mountainPicture} alt="montagne" className="about_picture" />
         <div className="large__accordions">
@@ -40,10 +32,6 @@ const About = () => {
 
         </div>
       </main>
-      <footer>
-        <Foot />
-      </footer>
-    </div>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-const logo = require("../assets/images/LOGO.png");
+const logo = require("../assets/images/kasa.png");
 
 const Foot = () => {
   return (

@@ -8,16 +8,15 @@
 }
 
 .card_location {
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 20px 0;
 }
 
 .card_location img {
     height: 350px;
     width: 350px;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 5px grey;
-    background: linear-gradient(180deg, #FF6060 0%, black 200%);
 }
 
 .card_location a {
@@ -39,9 +38,12 @@
 .title_location {
     color: white;
     font-size: 15px;
-    width: 240px;
+    width: 350px;
     position: absolute;
-    padding: 0 0 5px 10px;
+    padding: 10px;
+    font-weight: 500;
+    background: linear-gradient(180deg, transparent 0%, #000000c4 150%);
+    border-radius: 5px;
 }
 
 @media all and (max-width: 700px) {
