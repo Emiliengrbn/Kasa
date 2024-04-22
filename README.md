@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+![Kasa](/src/assets/image/kasa.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Ce projet est le 11ème projet de la formation ["Développeur d'applications JavaScript et React"](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react) de Openclassrooms
 
-In the project directory, you can run:
+Pour ce projet, Openclasrooms nous fournis des consignes comme le scénario, les contraintes techniques et fonctionnelles ou encore les maquettes.
 
-### `npm start`
+## Scénario
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dans ce projet, je suis un développeur front-end en freelance missionné pour développer la nouvelle plateforme web de l'entreprise Kasa, une entreprise de location d’appartements entre particuliers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La CTO a lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.
 
-### `npm test`
+Ma mission est donc de développer le front-end de l'ensemble de l'application en utilisant les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contraintes
 
-### `npm run build`
+Ce projet nous impose des contraintes techniques (ce qu'il faut utiliser et comment les utiliser), et des contraintes fonctionnelles (comment l'application doit fonctionner)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contraintes techniques
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pour les contraintes techniques il y a les différents outils à utiliser, la manière d'utiliser React, ou encore la manière d'utiliser React Router. Voici la liste de ces contraintes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Outils :
 
-### `npm run eject`
+  - Utilisation de Create React App (Création du dossier React)
+  - Utilisation de React Router (Gérer les différentes routes)
+  - Pas de librairie React externe
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - Découpage du code en composants modulaires et réutilisables
+  - Un composant par fichier
+  - Structure logique des différents fichiers
+  - Utilisation des props entre les composants
+  - Utilisation du state dans les composants quand c'est nécessaire
+  - Gestion des événements
+  - Utilisation des listes, notement avec la function _map_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React Router :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  - Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.
+  - Il existe une page par route.
+  - La page 404 est renvoyée pour chaque route inexistante, ou si une valeur présente dans l’URL ne fait pas partie des données renseignées.
+  - La logique du routeur est réunie dans un seul fichier.
 
-## Learn More
+### Contraintes fonctionnelles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Et pour les contraintes fonctionnelles il y a celles de la galerie d'images, et celles des Collapse. Voici la liste de ces contraintes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Galerie :
 
-### Code Splitting
+  - Si l'utilisateur se trouve à la première image et qu'il clique sur "Image précédente", la galerie affiche la dernière image.
+  - Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "Image suivante", la galerie affiche la première image.
+  - S'il n'y a qu'une seule image, les boutons "Suivant" et "Précédent" ainsi que la numérotation n'apparaissent pas.
+  - La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Collapse :
 
-### Analyzing the Bundle Size
+  - Par défaut, les Collapses sont fermés à l'initialisation de la page.
+  - Si le Collapse est ouvert, le clic de l'utilisateur permet de le fermer.
+  - Inversement, si le Collapse est fermé, un clic permet de l'ouvrir.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Maquettes
 
-### Making a Progressive Web App
+Vous pouvez retrouver les maquettes de ce projet en [cliquant ici](https://www.figma.com/file/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?type=design&node-id=0-1&mode=design)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Insatallation
 
-### Advanced Configuration
+Si vous souhaitez reprendre ce projet, vous pouvez suivre les indications ci-contre:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 1. Cloner le repository:
 
-### Deployment
+- `git clone https://github.com/Emiliengrbn/Kasa.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 2. Installer toutes les dépendances:
 
-### `npm run build` fails to minify
+- `npm install` ou `yarn`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. Lancer le projet:
+
+- `npm start` ou `yarn start`
