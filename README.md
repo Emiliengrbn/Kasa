@@ -66,7 +66,7 @@ Ce projet nous impose des contraintes techniques (ce qu'il faut utiliser et comm
 
 Vous pouvez retrouver les maquettes de ce projet en [cliquant ici](https://www.figma.com/file/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?type=design&node-id=0-1&mode=design)
 
-## Insatallation
+## Installation
 
 Si vous souhaitez reprendre ce projet, vous pouvez suivre les indications ci-contre :
 
