@@ -1,10 +1,10 @@
-![Kasa](/src/assets/image/kasa.png)
+![Kasa](/src/assets/images/kasa.png)
 
 ## Introduction
 
-Ce projet est le 11ème projet de la formation ["Développeur d'applications JavaScript et React"](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react) de Openclassrooms
+Ce projet est le 11e projet de la formation ["Développeur d'applications JavaScript et React"](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react) de Openclassrooms.
 
-Pour ce projet, Openclasrooms nous fournis des consignes comme le scénario, les contraintes techniques et fonctionnelles ou encore les maquettes.
+Pour ce projet, Openclasrooms nous fournit des consignes comme le scénario, les contraintes techniques et fonctionnelles, ou encore les maquettes.
 
 ## Scénario
 
@@ -12,20 +12,18 @@ Dans ce projet, je suis un développeur front-end en freelance missionné pour d
 
 La CTO a lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.
 
-Ma mission est donc de développer le front-end de l'ensemble de l'application en utilisant les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)
+Ma mission est donc de développer le front-end de l'ensemble de l'application en utilisant les composants React, les routes avec React Router, et en suivant les maquettes Figma (responsives !).
 
 ## Contraintes
 
-Ce projet nous impose des contraintes techniques (ce qu'il faut utiliser et comment les utiliser), et des contraintes fonctionnelles (comment l'application doit fonctionner)
+Ce projet nous impose des contraintes techniques (ce qu'il faut utiliser et comment les utiliser), et des contraintes fonctionnelles (comment l'application doit fonctionner).
 
 ### Contraintes techniques
 
-Pour les contraintes techniques il y a les différents outils à utiliser, la manière d'utiliser React, ou encore la manière d'utiliser React Router. Voici la liste de ces contraintes.
-
 - Outils :
 
-  - Utilisation de Create React App (Création du dossier React)
-  - Utilisation de React Router (Gérer les différentes routes)
+  - Utilisation de Create React App (création du dossier React)
+  - Utilisation de React Router (gérer les différentes routes)
   - Pas de librairie React externe
 
 - React :
@@ -36,7 +34,7 @@ Pour les contraintes techniques il y a les différents outils à utiliser, la ma
   - Utilisation des props entre les composants
   - Utilisation du state dans les composants quand c'est nécessaire
   - Gestion des événements
-  - Utilisation des listes, notement avec la function _map_
+  - Utilisation des listes, notamment avec la fonction _map_
 
 - React Router :
 
@@ -46,8 +44,6 @@ Pour les contraintes techniques il y a les différents outils à utiliser, la ma
   - La logique du routeur est réunie dans un seul fichier.
 
 ### Contraintes fonctionnelles
-
-Et pour les contraintes fonctionnelles il y a celles de la galerie d'images, et celles des Collapse. Voici la liste de ces contraintes.
 
 - Galerie :
 
@@ -68,16 +64,21 @@ Vous pouvez retrouver les maquettes de ce projet en [cliquant ici](https://www.f
 
 ## Insatallation
 
-Si vous souhaitez reprendre ce projet, vous pouvez suivre les indications ci-contre:
+Si vous souhaitez reprendre ce projet, vous pouvez suivre les indications ci-contre :
 
-### 1. Cloner le repository:
+### Prérequis
+
+- [NodeJS (**version 12.18**)](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
+
+### Cloner le repository :
 
 - `git clone https://github.com/Emiliengrbn/Kasa.git`
 
-### 2. Installer toutes les dépendances:
+### Installer toutes les dépendances :
 
 - `npm install` ou `yarn`
 
-### 3. Lancer le projet:
+### Lancer le projet :
 
 - `npm start` ou `yarn start`
