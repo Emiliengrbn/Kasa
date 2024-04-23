@@ -2,7 +2,11 @@
 
 ## Introduction
 
-Ce projet est le 11e projet de la formation ["Développeur d'applications JavaScript et React"](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react) de Openclassrooms.
+Ce projet est le 11e projet de la formation ["Développeur d'applications JavaScript et React"](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react) de Openclassrooms et a pour but d'évaluer certaines compétences :
+
+- Créer des composants avec React
+- Développer les routes d'une application web avec React Router
+- Initialiser une application web avec un framework
 
 Pour ce projet, Openclasrooms nous fournit des consignes comme le scénario, les contraintes techniques et fonctionnelles, ou encore les maquettes.
 
